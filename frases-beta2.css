@@ -1,11 +1,28 @@
+@font-face {
+  font-family: Quicksand-Medium;
+  src: url(https://cdn.statically.io/gh/Alexxjandro/Frases/78f46f83/Quicksand-Medium.ttf);
+  font-display:swap;
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(https://cdn.statically.io/gh/Alexxjandro/Frases/506d4717/Roboto-Bold.ttf);
+  font-display:swap;
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(https://cdn.statically.io/gh/Alexxjandro/Frases/506d4717/Roboto-Black.ttf);
+  font-display:swap;
+}
 body {
 	font-family: Quicksand-Medium;
 	line-height: 1.5;
 }
-@font-face {
-  font-family: Quicksand-Medium;
-  src: url(https://cdn.statically.io/gh/google/fonts/6df94760/apache/roboto/Roboto-BoldItalic.ttf);
-  font-display:swap;
+h1,h2 {
+	font-family: Roboto-Black;
+}
+h3,h4,{
+	font-family: Roboto-Bold;
+
 }
 .amp-imgPost {
     width: 50%;
@@ -66,13 +83,13 @@ section.p14 {
 section.p14 a {
     width: 322px;
     height: 94px;
-    /* line-height: 94px; */
+    font-family: Roboto-Black;
+    line-height: 94px;
+    font-size: 85px;
     position: absolute;
-    /* top: 50%; */
-    /* left: 50%; */
-    /* margin-left: -161px; */
-    /* margin-top: -47px; */
     z-index: 10;
+    padding: 0;
+    margin: 0;
 }
 section.p14 a:visited {
     color: #fff;
