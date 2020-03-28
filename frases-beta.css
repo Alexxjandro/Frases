@@ -1,14 +1,12 @@
-@font-face {
-  font-family: Quicksand-Medium;
-  src: url(https://cdn.statically.io/gh/google/fonts/6df94760/apache/roboto/Roboto-BoldItalic.ttf);
-  font-display:swap;
-}
+
 body {
 	font-family: Quicksand-Medium;
 	line-height: 1.5;
 }
-body p{
-	display: none;
+@font-face {
+  font-family: Quicksand-Medium;
+  src: url(https://cdn.statically.io/gh/google/fonts/6df94760/apache/roboto/Roboto-BoldItalic.ttf);
+  font-display:swap;
 }
 .amp-imgPost {
     width: 50%;
