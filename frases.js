@@ -1,5 +1,6 @@
-//<![CDATA[ 
-var wait_jq = setInterval(function(){   
+
+//<![CDATA[
+var wait_jq = setInterval(function(){
     if (typeof($) != 'undefined') {
         clearInterval(wait_jq);
         wait_jq = null;
@@ -12,7 +13,7 @@ function main_js() {
 var disqus_shortname = 'magonetemplate';// disqus custom shortname for moderation
 var DATE_FORMAT = 'MMM dd, yyyy ';// global date format string for all javascript
 if (typeof(PRIMARY_COMMENT_SYSTEM) == 'undefined') {
-    var PRIMARY_COMMENT_SYSTEM = 'facebook'; // change the first priority comment system that you want to show to visitors  
+    var PRIMARY_COMMENT_SYSTEM = 'facebook'; // change the first priority comment system that you want to show to visitors
 }
 var DEFAULT_COMMENT_AVATAR = 'https://img1.blogblog.com/img/anon36.png'; // you can upload avatar some where then replace here for default comment avatar
 var MAX_REPLY_DEPTH = 2; // number reply depth level under a top comment
@@ -38,7 +39,7 @@ var RELOAD_POST_PAGINATION = false; // RELOAD_POST_PAGINATION
 var CENTERING_MENU_ITEMS = false; // CENTERING MENU ITEMS
 var SHOW_INNER_POST_ADS_AT = 'middle'; // where to show inner post ads
 var ARCHIVE_PAGE_FEED_LINKS = false;// show feed link in archive or not
-var TOC = true; // enable table of content for posts which have more than one H2
+var TOC = false; // enable table of content for posts which have more than one H2
 var DELAY_AD_LOAD = 100; // number of milliseconds to wait before loading ads from widget to its position
 
 
